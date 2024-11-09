@@ -10,7 +10,6 @@ public class IncomeSource {
 
     private String name;
 
-    // change this to `MonetaryAmount`
     private MonetaryAmount amount;
 
     private Frequency frequency;
