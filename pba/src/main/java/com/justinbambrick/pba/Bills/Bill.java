@@ -38,9 +38,9 @@ public class Bill {
                 + "Date: " + startDate;
     }
 
-    public Bill setAmount(MonetaryAmount newAmount) {
+    public Bill setAmount(MonetaryAmount updatedAmount) {
 
-        amount = newAmount;
+        amount = updatedAmount;
 
         return this;
     }
